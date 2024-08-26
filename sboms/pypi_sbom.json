@@ -1,0 +1,451 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:387da576-3fb2-44a4-a5a4-07819ac0772b",
+    "version": 1,
+    "metadata": {
+        "component": {
+            "bom-ref": "pkg:pypi/pypi-packages@0.1.0",
+            "name": "pypi-packages",
+            "type": "Application",
+            "version": "0.1.0"
+        },
+        "tools": [
+            {
+                "vendor": "MY VENDOR",
+                "name": "MY VENDOR",
+                "version": "0.1.0",
+                "hashes": []
+            }
+        ]
+    },
+    "components": [
+        {
+            "bom-ref": "pkg:pypi/jproperties@2.1.1",
+            "name": "jproperties",
+            "version": "2.1.1",
+            "publisher": "Tilman Blumenbach",
+            "description": "Java Property file parser and writer for Python",
+            "type": "Library",
+            "purl": "pkg:pypi/jproperties@2.1.1",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/Tblue/python-jproperties"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD 3-Clause License; partially licensed under the Python Software Foundation License"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/numpy@1.25.1",
+            "name": "numpy",
+            "version": "1.25.1",
+            "publisher": "Travis E. Oliphant et al.",
+            "description": "Fundamental package for array computing in Python",
+            "type": "Library",
+            "purl": "pkg:pypi/numpy@1.25.1",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/numpy/numpy/issues"
+                },
+                {
+                    "type": "Documentation",
+                    "url": "https://numpy.org/doc/1.25"
+                },
+                {
+                    "type": "Download",
+                    "url": "https://pypi.python.org/pypi/numpy"
+                },
+                {
+                    "type": "Homepage",
+                    "url": "https://www.numpy.org"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/numpy/numpy"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/requests@2.28.2",
+            "name": "requests",
+            "version": "2.28.2",
+            "publisher": "Kenneth Reitz",
+            "description": "Python HTTP for Humans.",
+            "type": "Library",
+            "purl": "pkg:pypi/requests@2.28.2",
+            "externalReferences": [
+                {
+                    "type": "Documentation",
+                    "url": "https://requests.readthedocs.io"
+                },
+                {
+                    "type": "Homepage",
+                    "url": "https://requests.readthedocs.io"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/psf/requests"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache 2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/robotframework-pabot@2.16.0",
+            "name": "robotframework-pabot",
+            "version": "2.16.0",
+            "publisher": "Mikko Korpela",
+            "description": "Parallel test runner for Robot Framework",
+            "type": "Library",
+            "purl": "pkg:pypi/robotframework-pabot@2.16.0",
+            "externalReferences": [
+                {
+                    "type": "Download",
+                    "url": "https://pypi.python.org/pypi/robotframework-pabot"
+                },
+                {
+                    "type": "Homepage",
+                    "url": "https://pabot.org"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/mkorpela/pabot"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache License, Version 2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+            "name": "charset-normalizer",
+            "version": "3.3.2",
+            "publisher": "Ahmed TAHRI",
+            "description": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "type": "Library",
+            "purl": "pkg:pypi/charset-normalizer@3.3.2",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/Ousret/charset_normalizer/issues"
+                },
+                {
+                    "type": "Documentation",
+                    "url": "https://charset-normalizer.readthedocs.io/en/latest"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/Ousret/charset_normalizer"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/urllib3@1.26.18",
+            "name": "urllib3",
+            "version": "1.26.18",
+            "publisher": "Andrey Petrov",
+            "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "type": "Library",
+            "purl": "pkg:pypi/urllib3@1.26.18",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/urllib3/urllib3"
+                },
+                {
+                    "type": "Documentation",
+                    "url": "https://urllib3.readthedocs.io/"
+                },
+                {
+                    "type": "Homepage",
+                    "url": "https://urllib3.readthedocs.io/"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/urllib3/urllib3/issues"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/certifi@2024.2.2",
+            "name": "certifi",
+            "version": "2024.2.2",
+            "publisher": "Kenneth Reitz",
+            "description": "Python package for providing Mozilla's CA Bundle.",
+            "type": "Library",
+            "purl": "pkg:pypi/certifi@2024.2.2",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/certifi/python-certifi"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/certifi/python-certifi"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MPL-2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/idna@3.6",
+            "name": "idna",
+            "version": "3.6",
+            "publisher": "",
+            "description": "Internationalized Domain Names in Applications (IDNA)",
+            "type": "Library",
+            "purl": "pkg:pypi/idna@3.6",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/kjd/idna/blob/master/HISTORY.rst"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/kjd/idna/issues"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/kjd/idna"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": ""
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/robotframework@7.0.1",
+            "name": "robotframework",
+            "version": "7.0.1",
+            "publisher": "Pekka Kl\u00e4rck",
+            "description": "Generic automation framework for acceptance testing and robotic process automation (RPA)",
+            "type": "Library",
+            "purl": "pkg:pypi/robotframework@7.0.1",
+            "externalReferences": [
+                {
+                    "type": "Documentation",
+                    "url": "https://robotframework.org/robotframework"
+                },
+                {
+                    "type": "Download",
+                    "url": "https://pypi.org/project/robotframework"
+                },
+                {
+                    "type": "Homepage",
+                    "url": "https://robotframework.org"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/robotframework/robotframework/issues"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-7.0.1.rst"
+                },
+                {
+                    "type": "Slack",
+                    "url": "http://slack.robotframework.org"
+                },
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/robotframework/robotframework"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache License 2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/six@1.16.0",
+            "name": "six",
+            "version": "1.16.0",
+            "publisher": "Benjamin Peterson",
+            "description": "Python 2 and 3 compatibility utilities",
+            "type": "Library",
+            "purl": "pkg:pypi/six@1.16.0",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/benjaminp/six"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/natsort@8.4.0",
+            "name": "natsort",
+            "version": "8.4.0",
+            "publisher": "Seth M. Morton",
+            "description": "Simple yet flexible natural sorting in Python.",
+            "type": "Library",
+            "purl": "pkg:pypi/natsort@8.4.0",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/SethMMorton/natsort"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "bom-ref": "pkg:pypi/robotframework-stacktrace@0.4.1",
+            "name": "robotframework-stacktrace",
+            "version": "0.4.1",
+            "publisher": "Ren\u00e9 Rohner(Snooz82)",
+            "description": "A listener that prints a Stack Trace to console to faster find the code section where the failure appears.",
+            "type": "Library",
+            "purl": "pkg:pypi/robotframework-stacktrace@0.4.1",
+            "externalReferences": [
+                {
+                    "type": "VCS",
+                    "url": "https://github.com/MarketSquare/robotframework-stacktrace"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "pkg:pypi/pypi-packages@0.1.0",
+            "dependsOn": [
+                "pkg:pypi/certifi@2024.2.2",
+                "pkg:pypi/charset-normalizer@3.3.2",
+                "pkg:pypi/idna@3.6",
+                "pkg:pypi/jproperties@2.1.1",
+                "pkg:pypi/numpy@1.25.1",
+                "pkg:pypi/requests@2.28.2",
+                "pkg:pypi/six@1.16.0",
+                "pkg:pypi/urllib3@1.26.18",
+                "pkg:pypi/robotframework-pabot@2.16.0"
+            ]
+        },
+        {
+            "ref": "pkg:pypi/jproperties@2.1.1",
+            "dependsOn": [
+                "pkg:pypi/six@1.16.0"
+            ]
+        },
+        {
+            "ref": "pkg:pypi/numpy@1.25.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/requests@2.28.2",
+            "dependsOn": [
+                "pkg:pypi/certifi@2024.2.2",
+                "pkg:pypi/charset-normalizer@3.3.2",
+                "pkg:pypi/idna@3.6",
+                "pkg:pypi/urllib3@1.26.18"
+            ]
+        },
+        {
+            "ref": "pkg:pypi/robotframework-pabot@2.16.0",
+            "dependsOn": [
+                "pkg:pypi/natsort@8.4.0",
+                "pkg:pypi/robotframework@7.0.1",
+                "pkg:pypi/robotframework-stacktrace@0.4.1"
+            ]
+        },
+        {
+            "ref": "pkg:pypi/charset-normalizer@3.3.2",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/urllib3@1.26.18",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/certifi@2024.2.2",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/idna@3.6",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/robotframework@7.0.1",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/six@1.16.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/natsort@8.4.0",
+            "dependsOn": []
+        },
+        {
+            "ref": "pkg:pypi/robotframework-stacktrace@0.4.1",
+            "dependsOn": []
+        }
+    ]
+}
